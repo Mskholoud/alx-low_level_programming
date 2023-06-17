@@ -16,6 +16,6 @@ while (kh <= 122)
 	putchar(kh);
 	kh++;
 }
-putchar('\nr);
+putchar('\n');
 return (0);
 }
