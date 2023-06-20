@@ -16,5 +16,6 @@ while (b <= 90)
 {putchar(b);
 b++;
 }
+putchar('\n');
 return (0);
 }
