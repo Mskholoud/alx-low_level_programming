@@ -1,18 +1,18 @@
 #include <stdio.h>
 /**
   *main - entry point
-  *Description: printing 16 base
+  *Description: printing reversed alphabets
   *Return: always 0
 */
 int main(void)
 {
 int a = 0;
 char b = 97;
-while ( a <= 9)
+while (a <= 9)
 {putchar (a + '0');
 a++;
 }
-while ( b <= 102)
+while (b <= 102)
 {putchar (b);
 b++;
 }
