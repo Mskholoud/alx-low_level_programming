@@ -15,6 +15,7 @@ char my_Putchar[] = "_putchar";
 	{
 		_putchar(my_Putchar[i]);
 	}
-_putchar('\n')
+_putchar('\n');
+
 return (0);
 }
