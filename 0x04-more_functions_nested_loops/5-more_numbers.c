@@ -2,8 +2,8 @@
 
 /**
  * more_numbers - entry point
- * Description: prints 10 times the numbers, from 0  to 14
- * void: integer to be checked
+ * Description: prints 10 times the numbers, from 0 to 14
+ * void: nothing
  * Return: is void
 */
 
