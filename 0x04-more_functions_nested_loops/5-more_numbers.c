@@ -2,15 +2,14 @@
 
 /**
  * more_numbers - entry point
- * Description: prints the numbers, from 0  to 14
+ * Description: prints 10 times the numbers, from 0  to 14
  * void: integer to be checked
- * Return: is always 0
+ * Return: is void
 */
 
 void more_numbers(void)
 {
-	int x;
-	int y;
+	int x, y;
 
 	for (x = 0; x < 10; x++)
 	{
