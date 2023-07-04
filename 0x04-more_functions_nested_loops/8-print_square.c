@@ -10,21 +10,21 @@
 
 void print_square(int size)
 {
-	int size, column;
+	int lines, column;
 
-	if (n > 0)
+	if (size > 0)
 	{
-	for (size = 0; size < n; size++)
-	{
-		for (column = 0; column < size; column++)
+		for (lines = 0; lines < size; lines++)
 		{
-			_putchar('#');
+			for (column = 0; column < size; column++)
+			{
+				_putchar('#');
+			}
+			_putchar('\n');
 		}
-	}
-		_putchar('\n');
 	}
 	else
 	{
-		_putchar('\n');
+_putchar('\n');
 	}
 }
